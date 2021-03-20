@@ -7,7 +7,7 @@
         </router-link>
         
     </v-toolbar-title>
-        <v-img :src="require('@/assets/img/mercedes_brand_name.svg')" max-width="9%" class="ml-4 mt-6"></v-img>
+        <img src="./../assets/img/mercedes_brand_name.svg"  width="120" height="55" class="ml-4 mt-6">
 
     </v-app-bar>
   </nav>

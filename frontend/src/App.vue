@@ -11,9 +11,9 @@
 
         <!-- MAIN CARD -->
         <v-row>       
-          <v-col cols="12" class="pt-0 pb-0">
+          <v-col cols="12">
             <v-row align="center" justify="center">       
-              <v-col cols="12" class="pt-0 pb-0 card-container">
+              <v-col cols="12" class="card-container">
                 <router-view></router-view>
               </v-col>
             </v-row>

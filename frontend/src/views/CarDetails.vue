@@ -7,8 +7,12 @@
     elevation="1"
     max-width="750px"
   >         
+    
+    <router-link :to="{ name: 'car-selection'}" key="car-selection"> 
+      <v-icon size="25" color="white">mdi-arrow-left</v-icon><span class="white--text ml-1">back</span>
+    </router-link>
 
-  <div class="cars-container justify-center" >
+  <div class="cars-container justify-center mt-10" >
     <div class="car-div">
       <v-img :src="require('@/assets/img/car-a.webp')" class="car-image" ></v-img>
       <span class="white--text">Class A</span>
@@ -18,38 +22,35 @@
       <div class="white--text">
         <v-btn 
           color="secondary" 
-          rounded 
           depressed 
           large 
-          class="black--text mt-10 btn-text"
-          to="/car-selection">
-          {{ $t('Homepage.gettingStarted') }}
+          block
+          class="black--text btn-text">
+          {{ $t('CarDetails.action1') }}
         </v-btn>  
       </div>
       <div class="white--text">
         <v-btn 
           color="secondary" 
-          rounded 
           depressed 
           large 
-          class="black--text mt-10 btn-text"
-          to="/car-selection">
-          {{ $t('Homepage.gettingStarted') }}
+          block
+          class="black--text btn-text">
+          {{ $t('CarDetails.action2') }}
         </v-btn>  
       </div>
       <div class="white--text">
         <v-btn 
           color="secondary" 
-          rounded 
           depressed 
           large 
-          class="black--text mt-10 btn-text"
-          to="/car-selection">
-          {{ $t('Homepage.gettingStarted') }}
+          block
+          class="black--text btn-text">
+          {{ $t('CarDetails.action3') }}
         </v-btn>  
       </div>
       
-    
+
     </div>
 
   </div>
@@ -61,7 +62,7 @@
 <script>
 
 export default {
-  name: 'Homepage',
+  name: 'CarDetails',
 
   data: () => ({
 
@@ -92,8 +93,8 @@ export default {
 }
 
 .car-image{
-  max-width: 200px;
-  max-height: 95px;
+  max-width: 120%;
+  max-height: 120%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -104,13 +105,21 @@ export default {
 
 .cars-container{
   display: grid;
-  grid-column-gap: 10px;
-  grid-template-columns: auto auto;
+  grid-column-gap: 30px;
+  grid-template-columns: auto 300px;
+}
+
+@media only screen and (max-width: 950px) {
+  .cars-container{
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto;
+  }
 }
 
 .actions-div{
   display: grid;
-  grid-row-gap: 10px;
+  grid-row-gap: 30px;
   grid-template-rows: auto auto auto;
 }
 </style>

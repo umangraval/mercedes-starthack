@@ -39,7 +39,7 @@
 <script>
 
 export default {
-  name: 'Homepage',
+  name: 'CarSelection',
 
   data: () => ({
 
@@ -52,16 +52,6 @@ export default {
 
 .container{
   background: #000;
-}
-.title{
-  font-size: 2.25rem !important;
-  margin-bottom: 8px !important;
-  margin-top: 8px !important;
-  color: rgb(216, 216, 216); 
-}
-
-.subtitle{
-  color: #fff !important;
 }
 
 .btn-text{
@@ -86,5 +76,15 @@ export default {
   grid-row-gap: 60px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+}
+
+@media only screen and (max-width: 950px) {
+  .cars-container{
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 60px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }
 </style>
