@@ -9,27 +9,32 @@
   >         
 
   <div class="cars-container justify-center" >
-    <router-link :to="{ name: 'car-details'}" key="car-details"> 
+    <router-link :to="{ name: 'car-details-a'}" key="car-details-a"> 
       <div class="car-div">
         <v-img :src="require('@/assets/img/car-a.webp')" class="car-image"></v-img>
         <span class="white--text">Class A</span>
       </div>
     </router-link>
+    <router-link :to="{ name: 'car-details-b'}" key="car-details-b"> 
+      <div class="car-div">
+        <v-img :src="require('@/assets/img/car-b.webp')" class="car-image"></v-img>
+        <span class="white--text">Class B</span>
+      </div>
+    </router-link>
+    <router-link :to="{ name: 'car-details-e'}" key="car-details-e"> 
+      <div class="car-div">
+        <v-img :src="require('@/assets/img/car-e.webp')" class="car-image"></v-img>
+        <span class="white--text">Class E</span>
+      </div>
+    </router-link>
+    <router-link :to="{ name: 'car-details-g'}" key="car-details-g"> 
+      <div class="car-div">
+        <v-img :src="require('@/assets/img/car-g.webp')" class="car-image"></v-img>
+        <span class="white--text">Class G</span>
+      </div>
+    </router-link>
 
-    <div class="car-div">
-      <v-img :src="require('@/assets/img/car-b.webp')" class="car-image"></v-img>
-      <span class="white--text">Class B</span>
-    </div>
-
-    <div class="car-div">
-      <v-img :src="require('@/assets/img/car-e.webp')" class="car-image"></v-img>
-      <span class="white--text">Class E</span>
-    </div>
-
-    <div class="car-div">
-      <v-img :src="require('@/assets/img/car-g.webp')" class="car-image"></v-img>
-      <span class="white--text">Class G</span>
-    </div>
+    
   </div>
 
   </v-card>

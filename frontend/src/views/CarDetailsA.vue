@@ -25,7 +25,8 @@
           depressed 
           large 
           block
-          class="black--text btn-text">
+          class="black--text btn-text"
+          to="/virtual-tour">
           {{ $t('CarDetails.action1') }}
         </v-btn>  
       </div>
@@ -62,7 +63,7 @@
 <script>
 
 export default {
-  name: 'CarDetails',
+  name: 'CarDetailsA',
 
   data: () => ({
 
