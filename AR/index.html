@@ -11,14 +11,18 @@
           obj-model="obj: url(3d_models/specs/Project Name.obj); mtl: url(3d_models/specs/Project Name.mtl)">
         ></a-entity>
       </a-marker> -->
-      <a-marker preset='hiro'>
-        <!--Adding a glTF 2.0 model to your scene-->
-        <a-entity
-        gltf-model-next="src: url(/3d_models/specs/specs.gltf);"
-        >
+
+      <a-assets>
+        <a-asset-item id="tree" src="3d_models/specs/specs.gltf"></a-asset-item>
+	</a-assets>
+    
+    <a-marker preset="hiro">
+        <a-entity   position="0 0 0" 
+                    rotation="-90 0 0"
+                    scale="0.10 0.10 0.10"
+                    gltf-model="#tree" >
         </a-entity>
-        
-      </a-marker>
+    </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
