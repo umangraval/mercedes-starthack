@@ -4,5 +4,10 @@
     "title": "Mercedes-Benz",
     "subtitle": "The Best or Nothing",
     "gettingStarted": "Getting Started"
+  },
+  "CarDetails":{
+    "action1":"Full Virtual Tour",
+    "action2":"Engine Specifications",
+    "action3":"Exterior Design"
   }
 }

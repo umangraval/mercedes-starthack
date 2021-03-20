@@ -16,29 +16,52 @@ export default [
     },
   },
   {
-    path: "/car-details",
-    name: "car-details",
-    component: () => import("@/views/CarDetails"),
+    path: "/car-details-a",
+    name: "car-details-a",
+    component: () => import("@/views/CarDetailsA"),
     meta: {
-      // requiresAuth: true,
-      title: "Car Details",
+      title: "Car Details - Class A",
     },
   },
+  {
+    path: "/car-details-b",
+    name: "car-details-b",
+    component: () => import("@/views/CarDetailsB"),
+    meta: {
+      title: "Car Details - Class B",
+    },
+  },
+  {
+    path: "/car-details-e",
+    name: "car-details-e",
+    component: () => import("@/views/CarDetailsE"),
+    meta: {
+      title: "Car Details - Class E",
+    },
+  },
+  {
+    path: "/car-details-g",
+    name: "car-details-g",
+    component: () => import("@/views/CarDetailsG"),
+    meta: {
+      title: "Car Details - Class G",
+    },
+  },
+  
   {
     path: "/virtual-tour",
     name: "virtual-tour",
     component: () => import("@/views/VirtualTour"),
     meta: {
-      // requiresAuth: true,
       title: "Virtual Tour",
     },
   },
-  // {
-  //   path: "/*",
-  //   name: "page-not-found",
-  //   component: () => import("@/views/PageNotFound"),
-  //   meta: {
-  //     title: "404 - Page not found",
-  //   },
-  // },
+  {
+    path: "/*",
+    name: "page-not-found",
+    component: () => import("@/views/PageNotFound"),
+    meta: {
+      title: "404 - Page not found",
+    },
+  },
 ];

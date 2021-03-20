@@ -1,8 +1,8 @@
 <template>
   <div class="mt-12 px-3">
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn't exist... the sadness.</p>
-    <router-link :to="{ name: 'login'}">
+    <h1 class="white--text">NOT FOUND</h1>
+    <p class="white--text">You just hit a route that doesn't exist... the sadness.</p>
+    <router-link :to="{ name: 'homepage'}">
       <a class="go-back-link" > Go Back</a>
     </router-link>
   </div>
@@ -25,7 +25,7 @@ export default {
 <style scoped>
   .go-back-link{
     text-decoration: underline;
-    color: black !important; 
+    color: #fff !important; 
   }
 
 
