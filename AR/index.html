@@ -5,14 +5,19 @@
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-      <a-marker preset="hiro">
+      <!-- <a-marker preset="hiro">
         <a-entity
-          position="0 0 0"
-          position="50 150 0"
-          class="clickable"
-        gesture-handler="minScale: 0.25; maxScale: 10"
-          obj-model="obj: url(3d_models/test1.obj); mtl: url(3d_models/testmtl.mtl)">
+          position="0 0 0 0"
+          obj-model="obj: url(3d_models/specs/Project Name.obj); mtl: url(3d_models/specs/Project Name.mtl)">
         ></a-entity>
+      </a-marker> -->
+      <a-marker preset='hiro'>
+        <!--Adding a glTF 2.0 model to your scene-->
+        <a-entity
+        gltf-model-next="src: url(/3d_models/specs/specs.gltf);"
+        >
+        </a-entity>
+        
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
