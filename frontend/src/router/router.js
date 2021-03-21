@@ -57,6 +57,14 @@ export default [
     },
   },
   {
+    path: "/engine-specs",
+    name: "engine-specs",
+    component: () => import("@/views/EngineSpecs"),
+    meta: {
+      title: "Engine Specifications",
+    },
+  },
+  {
     path: "/*",
     name: "page-not-found",
     component: () => import("@/views/PageNotFound"),

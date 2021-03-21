@@ -36,7 +36,8 @@
           depressed 
           large 
           block
-          class="black--text btn-text">
+          class="black--text btn-text"
+          to="/engine-specs">
           {{ $t('CarDetails.action2') }}
         </v-btn>  
       </div>
