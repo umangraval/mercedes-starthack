@@ -30,7 +30,7 @@ A fully immersive customer experience using connceted device technology for soun
   <img src="./brand_assets/overview.png" width=500 alt="Spider">
 </h1>
 
-## Technologies Used
+## Technologies and Third party libraries
 
 A few things to note in the project:
 * **[BinauralSpatializer]()** - This contains the declaration and definition files which are used for binaural spatialization. The library includes a real-time 3D binaural audio renderer offering full 3D spatialization. 
