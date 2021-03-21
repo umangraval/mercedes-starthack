@@ -30,6 +30,12 @@ A fully immersive customer experience using connceted device technology for soun
   <img src="./brand_assets/overview.png" width=500 alt="Spider">
 </h1>
 
+## Key Features
+
+* Area targeted Augumented Reality
+* Fog computing for decentralized computing infrastructure
+* 8D audio using spacial reverb and mixing
+
 ## Technologies and Third party libraries
 
 A few things to note in the project:
