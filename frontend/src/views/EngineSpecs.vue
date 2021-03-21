@@ -11,6 +11,45 @@
     ><span class="white--text ml-1">back</span>
     <!-- </router-link> -->
     <h3 class="title">Engine Specs</h3>
+    <div class="div-buttons">
+    <v-dialog
+      v-model="dialog"
+      width="500"
+    >
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          v-bind="attrs"
+          v-on="on"
+           class="bnt-text mr-4"
+        >
+          QR Code
+        </v-btn>
+      </template>
+
+      <v-card>
+        <v-img :src="require('@/assets/img/qr_code.png')" ></v-img>
+      </v-card>
+    </v-dialog>
+    <v-dialog
+      v-model="dialog"
+      width="500"
+    >
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          v-bind="attrs"
+          v-on="on"
+          class="bnt-text"
+        >
+          AR Maker
+        </v-btn>
+      </template>
+
+      <v-card>
+        <v-img :src="require('@/assets/img/ar_marker.png')" ></v-img>
+      </v-card>
+    </v-dialog>
+
+    </div>
     <video class="mt-3" width="100%" height="400" controls>
       <source src="../assets/videos/specs.mp4" type="video/mp4" />
       Your browser does not support the video tag.
