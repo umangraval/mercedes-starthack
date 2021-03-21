@@ -64,6 +64,14 @@ A few things to note in the project:
   <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 6.png" width="40%"/>
 </p>
 
+## AR Specifications
+
+Virtual Car engine specification after scaning the marker place near each car.
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/j7B8M-8E-40/0.jpg)](http://www.youtube.com/watch?v=j7B8M-8E-40 "AR specs")
+
+## AR Car Tour
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/seFx7m4WeDA/0.jpg)](http://www.youtube.com/watch?v=seFx7m4WeDA "AR specs")
 
 ## Contributors
 
