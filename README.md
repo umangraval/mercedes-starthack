@@ -34,7 +34,7 @@ A fully immersive customer experience using connceted device technology for soun
 
 * Area targeted Augumented Reality
 * Fog computing for decentralized computing infrastructure
-* 8D audio using spacial reverb and mixing
+* 8D audio using spacial reverb and mixing. Check out **[here](https://www.youtube.com/watch?v=pgeFdOayeaw&ab_channel=Saigy)** for experience.
 
 ## Technologies and Third party libraries
 
