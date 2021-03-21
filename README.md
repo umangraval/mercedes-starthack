@@ -41,7 +41,7 @@ A fully immersive customer experience using connceted device technology for soun
 A few things to note in the project:
 * **[BinauralSpatializer]()** - This contains the declaration and definition files which are used for binaural spatialization. The library includes a real-time 3D binaural audio renderer offering full 3D spatialization. 
 * **[Vue JS]()** - model–view–viewmodel front end JavaScript framework for building user interfaces.
-* docker-compose - Docker compose script to start service in production mode.
+* Docker - Docker script to start service in production mode.
 * **[AR.js]()** - AR.js is a lightweight library for Augmented Reality on the Web, coming with features like Image Tracking, Location based AR and Marker tracking.
 * **[Vuforia Engine](#)** - software development kit (SDK) for creating Augmented Reality apps.
 
