@@ -45,6 +45,26 @@ A few things to note in the project:
 * **[AR.js]()** - AR.js is a lightweight library for Augmented Reality on the Web, coming with features like Image Tracking, Location based AR and Marker tracking.
 * **[Vuforia Engine](#)** - software development kit (SDK) for creating Augmented Reality apps.
 
+## Customer App
+
+<p float="left">
+  <img src="Mockups/Mercedes_Customer_App/img2.png" width="40%"/>
+  <img src="Mockups/Mercedes_Customer_App/img1.png" width="40%"/>
+  <img src="Mockups/Mercedes_Customer_App/img3.png" width="40%"/>
+</p>
+
+## Staff App
+
+<p float="left">
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 1.png" width="40%"/>
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 2.png" width="40%"/>
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 3.png" width="40%"/>
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 4.png" width="40%"/>
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 5.png" width="40%"/>
+  <img style="margin: 10px;border-radius: 3px;" src="Mockups/Mercedes_User_App/Web 1920 – 6.png" width="40%"/>
+</p>
+
+
 ## Contributors
 
 <table>
